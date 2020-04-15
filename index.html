@@ -6,44 +6,29 @@
 <style>
 <link rel="stylesheet" href="css/style.css">
 
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
-	
-#menu-outer {
+
+
+        #menu-outer {
 	height: 84px;
 	background: url(images/bar-bg.jpg) repeat-x;
-}
+        }
 
-.table {
+
+        .table {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
-}
+        }
 
-ul#horizontal-list {
+        ul#horizontal-list {
 	min-width: 696px;
 	list-style: none;
 	padding-left: 450px;	
 	padding-top: 60px;
 	font-size: 50px;
 	}
+
+
 	ul#horizontal-list li {
 		display: inline;
 		padding: 5px;
@@ -70,13 +55,39 @@ ul#horizontal-list {
 	-webkit-filter: grayscale(100%);
 	}
 	
-	#link_bar {display: table;   /* Allow the centering to work */}
-	#link_bar a { padding:15px; font-weight:bold; float:center; color:#ffffff; }
+    #link_bar {display: table;   /* Allow the centering to work */}
+    #link_bar a { padding:15px; font-weight:bold; float:center; color:#ffffff; }
     #link_bar a:link { color:#ffffff; text-decoration:none; }
     #link_bar a:visited { color:#ffffff; background-color:#0000a0; }
     #link_bar a:hover { color:#ffffff; background-color:#000060; }
     #link_bar a:active { color:#f0f0f0; background-color:#00ff00; }
 	
+@media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+        
+        ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-left: 80px;	
+	padding-top: 0px;
+	font-size: 50px;
+	}
+
+        ul#horizontal-list li {
+		display: inline;
+		padding: 5px;
+	}
+	
+	ul#logo-lists {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	padding-left: 70px;
+	font-size: 50px;
+	}
+}
+	/* For mobile phones: */
+
 </style>
 </head>
 
